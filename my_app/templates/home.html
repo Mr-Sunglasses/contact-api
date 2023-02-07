@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Query</title>
+</head>
+<body>
+    <form method="POST">
+        {{form.hidden_tag()}}
+        {{form.name.label}} {{form.name()}}
+        {{form.email.label}} {{form.email()}}
+        {{form.message.label}} {{form.message()}}
+        {{form.submit()}}
+    </form>
+</body>
+</html>
